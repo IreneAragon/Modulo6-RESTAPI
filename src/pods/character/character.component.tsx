@@ -13,12 +13,12 @@ import * as classes from './character.styles';
 
 interface Props {
   character: Character;
-  cities: Lookup[];
-  onSave: (character: Character) => void;
+  // cities: Lookup[];
+  // onSave: (character: Character) => void;
 }
 
 export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
-  const { character, cities, onSave } = props;
+  const { character } = props;
 
   return (
     <Formik
