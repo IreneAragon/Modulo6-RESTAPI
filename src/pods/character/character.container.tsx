@@ -39,5 +39,5 @@ export const CharacterContainer: React.FunctionComponent = (props) => {
     }
   };
 
-  return <CharacterComponent character={character} />;
+  return <CharacterComponent character={character} onSave={handleSave} />;
 };
