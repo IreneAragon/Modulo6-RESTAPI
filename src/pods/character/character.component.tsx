@@ -61,14 +61,14 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
                 </div>
               </div>
             </div>
-            <TextFieldComponent
+            {/* <TextFieldComponent
               name="bestSentence"
               label="Best Sentence"
               multiline={true}
             />
             <Button type="submit" variant="contained" color="primary">
               Save
-            </Button>
+            </Button> */}
           </Form>
         </CardContent>
       </Card>
