@@ -4,7 +4,7 @@ import { CharacterEntityApi } from './character-collection.api-model';
 
 // let characterCollection = [...mockCharacterCollection];
 
-const url = "http://localhost:3000/api/characters/";
+const url = '/api/characters/'; 
 
 export const getCharacterCollection = () => {
   return axios.get<CharacterEntityApi[]>(url).then(({ data }) => data);

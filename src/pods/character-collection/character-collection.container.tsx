@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { linkRoutes } from 'core/router';
-// import { deleteCharacter as deleteCharacter } from './api';
 import { useCharacterCollection } from './character-collection.hook';
 import { CharacterCollectionComponent } from './character-collection.component';
 
@@ -17,27 +16,18 @@ export const CharacterCollectionContainer = () => {
     navigate(linkRoutes.characterDetails(id));
   };
 
-  // const handleCreateCharacter = () => {
-  //   navigate(linkRoutes.createCharacter);
-  // };
-
   // const handleEdit = (id: number) => {
   //   navigate(linkRoutes.editCharacter(id));
   // };
 
   function onDetails(id: string): void {
-    throw new Error('Function not implemented.');
+    throw new Error('Function not implementedddddddd.');
   }
-
-  // const handleDelete = async (id: number) => {
-  //   await deleteCharacter(id);
-  //   loadCharacterCollection();
-  // };
 
   return (
     <CharacterCollectionComponent
-      characterCollection={characterCollection}
-      onDetails={onDetails}
+      characterCollection={characterCollection} 
+      onDetails={handleDetails}
     />
-  );
+  ); 
 };

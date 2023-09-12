@@ -3,7 +3,7 @@ import { CharacterEntityApi } from './character-collection.api-model';
 export const mockCharacterCollection: CharacterEntityApi[] = [
   {
     id: 1,
-    name: "Ricksss Sanchez",
+    name: "Rick Sanchez",
     image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
     status: "Alive",
     species: "Human",
