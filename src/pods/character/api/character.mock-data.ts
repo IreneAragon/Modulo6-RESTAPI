@@ -72,7 +72,10 @@ export const mockCharacterCollection: Character[] = [
       "https://rickandmortyapi.com/api/episode/51"
     ],
     "url": "https://rickandmortyapi.com/api/character/1",
-    "created": "2017-11-04T18:48:46.250Z"
+    "created": "2017-11-04T18:48:46.250Z",
+    "bestSentences": [
+      ""
+    ]
   },
   {
     "id": 2,
@@ -144,18 +147,9 @@ export const mockCharacterCollection: Character[] = [
       "https://rickandmortyapi.com/api/episode/51"
     ],
     "url": "https://rickandmortyapi.com/api/character/2",
-    "created": "2017-11-04T18:50:21.651Z"
+    "created": "2017-11-04T18:50:21.651Z",
+    "bestSentences": [
+      ""
+    ]
   },
 ];
-
-// TOTO: delete
-// export const mockCities: Lookup[] = [
-//   {
-//     id: 'Seattle',
-//     name: 'Seattle',
-//   },
-//   {
-//     id: 'New York',
-//     name: 'New York',
-//   },
-// ];

@@ -70,7 +70,11 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/1",
-      "created": "2017-11-04T18:48:46.250Z"
+      "created": "2017-11-04T18:48:46.250Z", 
+      "bestSentences": [
+        "rick sentence",
+        "rick sentence 2"
+      ]
   },
   {
       "id": 2,
@@ -142,7 +146,10 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/2",
-      "created": "2017-11-04T18:50:21.651Z"
+      "created": "2017-11-04T18:50:21.651Z",
+      "bestSentences": [
+        "morty sentence"
+      ]
   },
   {
       "id": 3,
@@ -205,7 +212,8 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/3",
-      "created": "2017-11-04T19:09:56.428Z"
+      "created": "2017-11-04T19:09:56.428Z",
+      "bestSentences": []
   },
   {
       "id": 4,
@@ -268,7 +276,8 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/4",
-      "created": "2017-11-04T19:22:43.665Z"
+      "created": "2017-11-04T19:22:43.665Z",
+      "bestSentences": [""]
   },
   {
       "id": 5,
@@ -328,7 +337,8 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/5",
-      "created": "2017-11-04T19:26:56.301Z"
+      "created": "2017-11-04T19:26:56.301Z",
+      "bestSentences": [""]
   },
   {
       "id": 6,
@@ -350,7 +360,8 @@
         "https://rickandmortyapi.com/api/episode/27"
       ],
       "url": "https://rickandmortyapi.com/api/character/6",
-      "created": "2017-11-04T19:50:28.250Z"
+      "created": "2017-11-04T19:50:28.250Z",
+      "bestSentences": [""]
   },
   {
       "id": 7,
@@ -373,7 +384,8 @@
         "https://rickandmortyapi.com/api/episode/11"
       ],
       "url": "https://rickandmortyapi.com/api/character/7",
-      "created": "2017-11-04T19:59:20.523Z"
+      "created": "2017-11-04T19:59:20.523Z",
+      "bestSentences": [""]
   },
   {
       "id": 8,
@@ -395,7 +407,8 @@
         "https://rickandmortyapi.com/api/episode/28"
       ],
       "url": "https://rickandmortyapi.com/api/character/8",
-      "created": "2017-11-04T20:03:34.737Z"
+      "created": "2017-11-04T20:03:34.737Z",
+      "bestSentences": [""]
   },
   {
       "id": 9,
@@ -417,7 +430,8 @@
         "https://rickandmortyapi.com/api/episode/24"
       ],
       "url": "https://rickandmortyapi.com/api/character/9",
-      "created": "2017-11-04T20:06:54.976Z"
+      "created": "2017-11-04T20:06:54.976Z",
+      "bestSentences": [""]
   },
   {
       "id": 10,
@@ -439,7 +453,8 @@
         "https://rickandmortyapi.com/api/episode/25"
       ],
       "url": "https://rickandmortyapi.com/api/character/10",
-      "created": "2017-11-04T20:19:09.017Z"
+      "created": "2017-11-04T20:19:09.017Z",
+      "bestSentences": [""]
   },
   {
       "id": 11,
@@ -461,7 +476,8 @@
         "https://rickandmortyapi.com/api/episode/12"
       ],
       "url": "https://rickandmortyapi.com/api/character/11",
-      "created": "2017-11-04T20:20:20.965Z"
+      "created": "2017-11-04T20:20:20.965Z",
+      "bestSentences": [""]
   },
   {
       "id": 12,
@@ -483,7 +499,8 @@
         "https://rickandmortyapi.com/api/episode/3"
       ],
       "url": "https://rickandmortyapi.com/api/character/12",
-      "created": "2017-11-04T20:32:33.144Z"
+      "created": "2017-11-04T20:32:33.144Z",
+      "bestSentences": [""]
   },
   {
       "id": 13,
@@ -505,7 +522,8 @@
         "https://rickandmortyapi.com/api/episode/31"
       ],
       "url": "https://rickandmortyapi.com/api/character/13",
-      "created": "2017-11-04T20:33:30.779Z"
+      "created": "2017-11-04T20:33:30.779Z",
+      "bestSentences": [""]
   },
   {
       "id": 14,
@@ -527,7 +545,8 @@
         "https://rickandmortyapi.com/api/episode/10"
       ],
       "url": "https://rickandmortyapi.com/api/character/14",
-      "created": "2017-11-04T20:51:31.373Z"
+      "created": "2017-11-04T20:51:31.373Z",
+      "bestSentences": [""]
   },
   {
       "id": 15,
@@ -549,7 +568,8 @@
         "https://rickandmortyapi.com/api/episode/10"
       ],
       "url": "https://rickandmortyapi.com/api/character/15",
-      "created": "2017-11-04T20:56:13.215Z"
+      "created": "2017-11-04T20:56:13.215Z",
+      "bestSentences": [""]
   },
   {
       "id": 16,
@@ -571,7 +591,8 @@
         "https://rickandmortyapi.com/api/episode/15"
       ],
       "url": "https://rickandmortyapi.com/api/character/16",
-      "created": "2017-11-04T21:12:45.235Z"
+      "created": "2017-11-04T21:12:45.235Z",
+      "bestSentences": [""]
   },
   {
       "id": 17,
@@ -593,7 +614,8 @@
         "https://rickandmortyapi.com/api/episode/3"
       ],
       "url": "https://rickandmortyapi.com/api/character/17",
-      "created": "2017-11-04T22:21:24.481Z"
+      "created": "2017-11-04T22:21:24.481Z",
+      "bestSentences": [""]
   },
   {
       "id": 18,
@@ -616,7 +638,8 @@
         "https://rickandmortyapi.com/api/episode/28"
       ],
       "url": "https://rickandmortyapi.com/api/character/18",
-      "created": "2017-11-04T22:25:29.008Z"
+      "created": "2017-11-04T22:25:29.008Z",
+      "bestSentences": [""]
   },
   {
       "id": 19,
@@ -638,7 +661,8 @@
         "https://rickandmortyapi.com/api/episode/10"
       ],
       "url": "https://rickandmortyapi.com/api/character/19",
-      "created": "2017-11-04T22:28:13.756Z"
+      "created": "2017-11-04T22:28:13.756Z",
+      "bestSentences": [""]
   },
   {
       "id": 20,
@@ -660,7 +684,8 @@
         "https://rickandmortyapi.com/api/episode/8"
       ],
       "url": "https://rickandmortyapi.com/api/character/20",
-      "created": "2017-11-04T22:34:53.659Z"
+      "created": "2017-11-04T22:34:53.659Z",
+      "bestSentences": [""]
     }
   ]
 }

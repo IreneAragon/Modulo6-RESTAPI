@@ -5,23 +5,21 @@ export interface Character {
   status: string;
   type: string;
   gender:string;
-  origin: {
-    name: string,
-    url: string,
-  },
+  origin: string,
   url: string;
+  species: string,
+  bestSentences: string[]
 }
 
 export const createEmptyCharacter = (): Character => ({
   id: 0,
-  image: 'f',
+  image: '',
   name: 'test',
   status: 'test',
   type: 'test',
   gender:'test',
-  origin: {
-    name: 'test',
-    url: 'test',
-  },
+  origin: 'test',
   url: 'test',
+  species: 'test',
+  bestSentences: ['']
 });

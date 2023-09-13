@@ -1,6 +1,6 @@
 import { Character } from './character.api-model';
 import { Lookup } from 'common/models';
-import { mockCharacterCollection } from './character.mock-data';
+// import { mockCharacterCollection } from './character.mock-data';
 import axios from 'axios';
 
 const url = '/api/characters/'; 
@@ -10,6 +10,11 @@ export const getCharacter = async (id: string): Promise<Character> => {
     return response;
   });
   return data;
+};
+
+export const updateCharacter = async (character: Character): Promise<boolean> => {
+  await axios.patch(`${url}/${character.id}`, character);
+  return true;
 };
 
 // export const getCharacter = () => {

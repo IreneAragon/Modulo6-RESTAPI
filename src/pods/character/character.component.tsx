@@ -6,6 +6,7 @@ import { formValidation } from './character.validations';
 import { Character } from './character.vm';
 import * as classes from './character.styles';
 import { Avatar, Card, CardContent, CardHeader, CardMedia, Typography, Button } from '@mui/material';
+import { BestSentencesComponent } from './bestSentences.component'
 
 interface Props {
   character: Character;
@@ -56,19 +57,22 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
                     Origin:
                   </Typography>
                   <Typography variant="subtitle1" gutterBottom>
-                    {character.origin.name}
+                    {character.origin}
                   </Typography>
                 </div>
+                <BestSentencesComponent
+                  bestSentences={character.bestSentences}
+                />
               </div>
             </div>
-            {/* <TextFieldComponent
+            <TextFieldComponent
               name="bestSentence"
               label="Best Sentence"
               multiline={true}
             />
             <Button type="submit" variant="contained" color="primary">
               Save
-            </Button> */}
+            </Button>
           </Form>
         </CardContent>
       </Card>
