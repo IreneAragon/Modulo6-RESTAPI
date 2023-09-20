@@ -22,5 +22,8 @@ export const updateCharacter = async (character: Character): Promise<boolean> =>
 // };
 
 export const saveCharacter = async (character: Character): Promise<boolean> => {
+  if (character.id) {
+    await axios.put<Character>(`${url}/${character.id}`, character);
+  }
   return true;
 };

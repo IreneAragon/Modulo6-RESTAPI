@@ -7,7 +7,14 @@ export const mapCharacterFromApiToVm = (
   ...character,
   id: character.id,
   name: character.name,
-  origin: character.origin.name,
+  origin: {
+    name: character.origin.name,
+    url: character.origin.url,
+  },
+  location: {
+    name: character.location.name,
+    url: character.location.url,
+  },
   status: character.status,
   gender: character.gender,
   type: character.type,

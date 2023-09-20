@@ -10,4 +10,5 @@ export interface CharacterEntityVm {
     url: string,
   },
   url: string;
+  bestSentences: string;
 }

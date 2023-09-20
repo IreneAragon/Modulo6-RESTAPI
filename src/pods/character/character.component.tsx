@@ -57,7 +57,7 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
                     Origin:
                   </Typography>
                   <Typography variant="subtitle1" gutterBottom>
-                    {character.origin}
+                    {character.origin.name}
                   </Typography>
                 </div>
                 <BestSentencesComponent
@@ -65,14 +65,14 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
                 />
               </div>
             </div>
-            <TextFieldComponent
+            {/* <TextFieldComponent
               name="bestSentence"
               label="Best Sentence"
               multiline={true}
-            />
-            <Button type="submit" variant="contained" color="primary">
+            /> */}
+            {/* <Button type="submit" variant="contained" color="primary">
               Save
-            </Button>
+            </Button> */}
           </Form>
         </CardContent>
       </Card>

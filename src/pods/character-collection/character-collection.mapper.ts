@@ -14,5 +14,6 @@ export const mapFromApiToVm = (
     name: character.origin.name,
     url: character.origin.url,
   },
-  url: character.url
+  url: character.url,
+  bestSentences: character.bestSentences,
 });
