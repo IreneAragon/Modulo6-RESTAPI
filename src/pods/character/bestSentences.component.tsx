@@ -15,18 +15,25 @@ export const BestSentencesComponent: React.FunctionComponent<Props> = (props) =>
         {bestSentences.length > 0 ? (
             <>
                 <label>
-                    Best sentences:
+                    Best sentence:
                 </label>
                 <p>{bestSentences}</p>
+                <TextFieldComponent
+                    name="bestSentences"
+                    label="Edit best sentence"
+                /> 
             </>
         ) : (
-            <p>{bestSentences}</p>
+            <>
+                <p>Best sentence:</p>
+                <small><i>This character doesn't have a best sentence yet, you can create one below</i></small>
+                <TextFieldComponent
+                    name="bestSentences"
+                    label="Create best sentence"
+                />
+            </>
         )}
-        <TextFieldComponent
-            name="bestSentences"
-            label="Best Sentence"
-            multiline={true}
-        /> 
+
         <Button type="submit" variant="contained" color="primary">
               Save
         </Button>
