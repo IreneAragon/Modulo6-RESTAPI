@@ -1,6 +1,4 @@
 import { Character } from './character.api-model';
-import { Lookup } from 'common/models';
-// import { mockCharacterCollection } from './character.mock-data';
 import axios from 'axios';
 
 const url = '/api/characters/'; 
@@ -16,10 +14,6 @@ export const updateCharacter = async (character: Character): Promise<boolean> =>
   await axios.patch(`${url}/${character.id}`, character);
   return true;
 };
-
-// export const getCharacter = () => {
-//   return axios.get<CharacterEntityApi[]>(url).then(({ data }) => data);
-// };
 
 export const saveCharacter = async (character: Character): Promise<boolean> => {
   if (character.id) {

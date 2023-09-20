@@ -1,8 +1,5 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
-import { TextFieldComponent} from 'common/components';
-// import { Lookup } from 'common/models';
-import { formValidation } from './character.validations';
 import { Character } from './character.vm';
 import * as classes from './character.styles';
 import { Avatar, Card, CardContent, CardHeader, CardMedia, Typography, Button } from '@mui/material';
@@ -65,14 +62,6 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
                 />
               </div>
             </div>
-            {/* <TextFieldComponent
-              name="bestSentence"
-              label="Best Sentence"
-              multiline={true}
-            /> */}
-            {/* <Button type="submit" variant="contained" color="primary">
-              Save
-            </Button> */}
           </Form>
         </CardContent>
       </Card>

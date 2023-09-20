@@ -33,38 +33,9 @@ export const BestSentencesComponent: React.FunctionComponent<Props> = (props) =>
                 />
             </>
         )}
-
         <Button type="submit" variant="contained" color="primary">
               Save
         </Button>
       </div>
     );
   };
-
-
-//   return (
-//     <div>
-//       {bestSentences.length > 0 ? (
-//           <>
-//               <label>
-//                   Best sentences:
-//               </label>
-//               <ul>
-//                   {bestSentences.map((scene, index) => (
-//                       <li key={index}>{scene}</li>
-//                   ))}
-//               </ul>
-//           </>
-//       ) : (
-//           <p></p>
-//       )}
-//       <TextFieldComponent
-//           name="bestSentences"
-//           label="Best Sentence"
-//           multiline={true}
-//       /> 
-//       <Button type="submit" variant="contained" color="primary">
-//             Save
-//       </Button>
-//     </div>
-//   );

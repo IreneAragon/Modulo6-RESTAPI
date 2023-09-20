@@ -16,12 +16,8 @@ export const CharacterCollectionContainer = () => {
     navigate(linkRoutes.characterDetails(id));
   };
 
-  // const handleEdit = (id: number) => {
-  //   navigate(linkRoutes.editCharacter(id));
-  // };
-
   function onDetails(id: string): void {
-    throw new Error('Function not implementedddddddd.');
+    throw new Error('Function not implemented.');
   }
 
   return (
