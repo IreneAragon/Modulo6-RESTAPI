@@ -12,7 +12,7 @@ export const BestSentencesComponent: React.FunctionComponent<Props> = (props) =>
   
     return (
       <div>
-        {bestSentences.length > 0 ? (
+        {bestSentences && bestSentences.length > 0 ? (
             <>
                 <label>
                     Best sentence:
